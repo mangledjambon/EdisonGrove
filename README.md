@@ -1,12 +1,10 @@
-# EdisonGrove
-DCOM4 Networking for Internet of Things
-Intel Edison + SeeedStudio Grove shield.
+# Assignment 2 - MQTT Broker and Client
 
-To install git on Edison:
-https://github.com/w4ilun/edison-guides/wiki/Installing-Git-on-Intel-Edison
+File: 				SensorsLCD.ino
+Dependencies:		Mosquitto, Grove sensors, PubSubClient
 
-To enable bluetooth (needs to be run every time board is restarted):
-
-1. rfkill unblock bluetooth
-2. killall bluetoothd (or, more permanently) systemctl disable bluetooth 
-3. hciconfig hci0 up
+Using a PubSubClient instance to create an MQTT broker and client on the Intel Edison. 
+Sensor values are read from the Grove sensors and published to topics.
+Current topics are temperature (edison/sensors/temp), sound level (edison/sensors/sound),
+light level (edison/sensors/light) and a test channel which will display the messages 
+it receives on the LCD screen.
