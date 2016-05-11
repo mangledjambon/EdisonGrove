@@ -1,7 +1,7 @@
 # Assignment 2 - MQTT Broker and Client
 
-File: 				SensorsLCD.ino
-Dependencies:		Mosquitto, Grove sensors, PubSubClient
+*File: 				SensorsLCD.ino
+*Dependencies:		Mosquitto, Grove sensors, PubSubClient
 
 Using a PubSubClient instance to create an MQTT broker and client on the Intel Edison. 
 Sensor values are read from the Grove sensors and published to topics.
