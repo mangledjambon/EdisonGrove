@@ -1,3 +1,10 @@
+/*
+    Sean Breen R00070693
+    Assignment 2 - MQTT
+    
+    https://github.com/mangledjambon/EdisonGrove
+*/
+
 #include <SPI.h>
 #include <Ethernet.h>
 #include <PubSubClient.h>
